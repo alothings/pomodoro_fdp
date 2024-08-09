@@ -1,0 +1,21 @@
+{
+    "manifest_version": 2,
+    "name": "Pomodoro For Distracted People",
+    "version": "1.0",
+    "description": "A simple Pomodoro timer to boost your productivity",
+    "icons": {
+      "48": "icons/icon-48.png"
+    },
+    "permissions": [
+      "storage",
+      "notifications"
+    ],
+    "browser_action": {
+      "default_icon": "icons/icon-48.png",
+      "default_title": "Pomodoro Timer",
+      "default_popup": "popup.html"
+    },
+    "background": {
+      "scripts": ["background.js"]
+    }
+  }
